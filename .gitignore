@@ -1,0 +1,48 @@
+# ---------------[ Unity generated ]------------------ #
+Temp/
+Obj/
+UnityGenerated/
+Library/
+
+# ----[ Visual Studio / MonoDevelop generated ]------- #
+
+ExportedObj/
+*.svd
+*.userprefs
+*.csproj
+*.pidb
+*.suo
+*.sln
+*.user
+*.unityproj
+*.booproj
+
+# -------------[ OS generated ]------------------------ #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# -------------[ RLM licenses ]------------------------ #
+*.lic
+
+Assets/UnityVS/Editor/UnityVS.VersionSpecific.dll
+Assets/UnityVS/Editor/UnityVS.VersionSpecific.dll.meta
+
+# Ignore the build
+Builds/
+
+# Don't ignore the files in the Installer folder, except for the files subfolder (Commented, not being used)
+!Installer/*
+Installer/bin/
+Installer/Files/
+Installer/Builds/
+
+# Don't ignore .lic files for External Drivers
+!External Drivers/**/*.lic
+# Ignore debug related files
+External Drivers/**/*.pdb
+External Drivers/**/*.vshost.exe*
