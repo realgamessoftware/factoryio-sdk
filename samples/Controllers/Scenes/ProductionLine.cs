@@ -79,7 +79,7 @@ namespace Controllers
                 lidsCounter.Value++;
             }
 
-            lidsRawConveyor.Value = feedLidMaterial;
+            lidsRawConveyor.Value = feedLidMaterial && !lidsCenterBusy.Value;
 
             //Bases
             ftBasesAtEntry.CLK(!basesAtEntry.Value);
@@ -96,7 +96,7 @@ namespace Controllers
                 basesCounter.Value++;
             }
 
-            basesRawConveyor.Value = feedBaseMaterial;
+            basesRawConveyor.Value = feedBaseMaterial && !basesCenterBusy.Value;
         }
     }
 }

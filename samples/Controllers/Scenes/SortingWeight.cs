@@ -14,7 +14,7 @@ namespace Controllers
         MemoryBit loadScale = MemoryMap.Instance.GetBit("Load scale", MemoryType.Output);
         MemoryBit sendLeft = MemoryMap.Instance.GetBit("Send left", MemoryType.Output);
         MemoryBit leftConveyor = MemoryMap.Instance.GetBit("Left conveyor", MemoryType.Output);
-        MemoryBit send = MemoryMap.Instance.GetBit("Send", MemoryType.Output);
+        MemoryBit send = MemoryMap.Instance.GetBit("Send forward", MemoryType.Output);
         MemoryBit frontConveyor = MemoryMap.Instance.GetBit("Front conveyor", MemoryType.Output);
         MemoryBit sendRight = MemoryMap.Instance.GetBit("Send right", MemoryType.Output);
         MemoryBit rightConveyor = MemoryMap.Instance.GetBit("Right conveyor", MemoryType.Output);

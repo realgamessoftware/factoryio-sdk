@@ -52,8 +52,8 @@ namespace Controllers
             //Controller controller = new ElevatorBasic();
             //Controller controller = new LevelControl();
             //Controller controller = new Palletizer();
-            //Controller controller = new PickPlaceXYZ();
             //Controller controller = new PickPlaceBasic();
+            //Controller controller = new PickPlaceXYZ();
             //Controller controller = new ProductionLine();
             //Controller controller =  new SeparatingStation();
             //Controller controller = new SortingHeightAdvanced();

@@ -77,9 +77,11 @@ namespace Controllers
             if (pickingState == State.State0) //Waiting for part and box
             {
                 grabState = State.State0;
-
+                
                 if (!partAtPlace.Value && !boxAtPlace.Value && counter < 3)
                     pickingState = State.State1;
+
+
             }
             else if (pickingState == State.State1)
             {
@@ -215,8 +217,16 @@ namespace Controllers
                 }
             }
 
-            exitYellow.Value = exitConveyor.Value;
-            exitGreen.Value = !exitConveyor.Value;
+            if (pickingState == State.State0)
+            {
+                exitYellow.Value = false;
+                exitGreen.Value = true;
+            }
+            else
+            {
+                exitYellow.Value = true;
+                exitGreen.Value = false;
+            }
 
             #endregion
         }
