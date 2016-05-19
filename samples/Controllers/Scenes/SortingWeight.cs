@@ -70,6 +70,10 @@ namespace Controllers
 
             if (state == State.State0)
             {
+                frontConveyor.Value = false;
+                leftConveyor.Value = false;
+                rightConveyor.Value = false;
+
                 if (!atScaleEntry.Value)
                     state = State.State1;
             }
@@ -121,9 +125,10 @@ namespace Controllers
                 send.Value = true;
                 sendRight.Value = false;
                 sendLeft.Value = true;
+                leftConveyor.Value = true;
 
                 if (ftAtLeftEntry.Q)
-                    state = 0;
+                    state = State.State0;
             }
             else if (state == State.State5)
             {
@@ -131,6 +136,7 @@ namespace Controllers
                 send.Value = true;
                 sendRight.Value = false;
                 sendLeft.Value = false;
+                frontConveyor.Value = true;
 
                 if (ftAtForwardEntry.Q)
                     state = State.State0;
@@ -141,6 +147,7 @@ namespace Controllers
                 send.Value = true;
                 sendRight.Value = true;
                 sendLeft.Value = false;
+                rightConveyor.Value = true;
 
                 if (ftAtRightEntry.Q)
                     state = State.State0;
