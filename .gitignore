@@ -15,3 +15,65 @@ ExportedObj/
 .Trashes
 ehthumbs.db
 Thumbs.db
+samples/Controllers/bin/Debug/ControllersSharp.exe.config
+samples/Controllers/bin/Debug/ControllersSharp.pdb
+samples/Controllers/bin/Debug/ControllersSharp.vshost.exe
+samples/Controllers/bin/Debug/ControllersSharp.vshost.exe.config
+samples/Controllers/bin/Debug/ControllersSharp.vshost.exe.manifest
+samples/Controllers/bin/Debug/EngineIO.dll
+samples/Controllers/bin/Debug/assembler.exe
+samples/Controllers/bin/Debug/assembler_analog.exe
+samples/Controllers/bin/Debug/automated_warehouse.exe
+samples/Controllers/bin/Debug/buffer_station.exe
+samples/Controllers/bin/Debug/converge_station.exe
+samples/Controllers/bin/Debug/elevator_advanced.exe
+samples/Controllers/bin/Debug/elevator_basic.exe
+samples/Controllers/bin/Debug/filling_tank.exe
+samples/Controllers/bin/Debug/fromato_setreset.exe
+samples/Controllers/bin/Debug/fromatob.exe
+samples/Controllers/bin/Debug/level_control.exe
+samples/Controllers/bin/Debug/palletizer.exe
+samples/Controllers/bin/Debug/pickplace_basic.exe
+samples/Controllers/bin/Debug/pickplace_xyz.exe
+samples/Controllers/bin/Debug/production_line.exe
+samples/Controllers/bin/Debug/queue_items.exe
+samples/Controllers/bin/Debug/separating_station.exe
+samples/Controllers/bin/Debug/sorting_station.exe
+samples/Controllers/bin/Debug/sorting_weight.exe
+samples/Controllers/bin/Debug/sortingheight_advanced.exe
+samples/Controllers/bin/Debug/sortingheight_basic.exe
+samples/Controllers/obj/Debug/Controllers.csproj.FileListAbsolute.txt
+samples/Controllers/obj/Debug/Controllers.csprojResolveAssemblyReference.cache
+samples/Controllers/obj/Debug/ControllersSharp.exe
+samples/Controllers/obj/Debug/ControllersSharp.pdb
+samples/Controllers/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+samples/Controllers/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+samples/Controllers/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+samples/Controllers/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+samples/Event Sample/bin/Debug/EngineIO.dll
+samples/Event Sample/bin/Debug/Event Sample 1.exe
+samples/Event Sample/bin/Debug/Event Sample 1.exe.config
+samples/Event Sample/bin/Debug/Event Sample 1.pdb
+samples/Event Sample/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+samples/Event Sample/obj/Debug/Event Sample 1.exe
+samples/Event Sample/obj/Debug/Event Sample 1.pdb
+samples/Event Sample/obj/Debug/Event Sample.csproj.FileListAbsolute.txt
+samples/Event Sample/obj/Debug/Event Sample.csprojResolveAssemblyReference.cache
+samples/Read Sample/bin/Debug/EngineIO.dll
+samples/Read Sample/bin/Debug/Read Sample.exe
+samples/Read Sample/bin/Debug/Read Sample.exe.config
+samples/Read Sample/bin/Debug/Read Sample.pdb
+samples/Read Sample/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+samples/Read Sample/obj/Debug/Read Sample.csproj.FileListAbsolute.txt
+samples/Read Sample/obj/Debug/Read Sample.csprojResolveAssemblyReference.cache
+samples/Read Sample/obj/Debug/Read Sample.exe
+samples/Read Sample/obj/Debug/Read Sample.pdb
+samples/Write Sample/bin/Debug/EngineIO.dll
+samples/Write Sample/bin/Debug/Write Sample.exe
+samples/Write Sample/bin/Debug/Write Sample.exe.config
+samples/Write Sample/bin/Debug/Write Sample.pdb
+samples/Write Sample/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+samples/Write Sample/obj/Debug/Write Sample.csproj.FileListAbsolute.txt
+samples/Write Sample/obj/Debug/Write Sample.csprojResolveAssemblyReference.cache
+samples/Write Sample/obj/Debug/Write Sample.exe
+samples/Write Sample/obj/Debug/Write Sample.pdb
