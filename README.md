@@ -1,7 +1,9 @@
 FACTORY I/O (SDK)
 =================
 
-With the SDK, developers can integrate FACTORY I/O with virtually anything. It provides tools so that you can develop interfaces between FACTORY I/O and any type of external technologies. Included in the SDK is the Engine I/O assembly, Engine I/O Explorer tool and several samples so you can get started right away.
+FACTORY I/O SDK (Software Development Kit) provides tools so that developers can create custom applications that access the simulation I/O points. These applications can be used as interfaces between FACTORY I/O and virtually any type of technologies, such as PLC, microcontrollers, databases, spreadsheets and so on.
+
+All of the simulation I/O points can be accessed through the SDK independently of the selected driver. Select None from the I/O drivers drop-down list when accessing the I/O points only through the SDK. Please note that Ultimate Edition is required in order to use the SDK.
 
 Engine I/O
 ----------
