@@ -6,6 +6,5 @@ __Inputs:__
 * Float: 240 (Time Scale)
 	
 __Outputs:__
-* Bit: 496 (Run)
+* Bit: 496 (Run), 497 (Pause), 498 (Reset)
 * Int: 240 (Camera Index)
-

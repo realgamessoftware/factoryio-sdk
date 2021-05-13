@@ -20,7 +20,7 @@ namespace Controllers
         public const int CycleTime = 8;
 
         /// <summary>
-        /// The idea of this sample is to demonstrate that Microsoft Visual Studio can be used as a soft PLC to 
+        /// The idea of this sample is to demonstrate that Microsoft Visual Studio can be used as a soft PLC to
         /// control FACTORY I/O (requires Ultimate Edition).
         /// </summary>
         /// <param name="args"></param>
